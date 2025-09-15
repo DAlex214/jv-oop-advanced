@@ -23,6 +23,6 @@ public class IsoscelesTrapezoid extends AbstractFigure {
                 + " sq. units, base1: " + base1
                 + " units, base2: " + base2
                 + " units, height: " + height
-                + " units, color: " + color);
+                + " units, color: " + getColor());
     }
 }

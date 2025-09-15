@@ -20,6 +20,6 @@ public class RightTriangle extends AbstractFigure {
         System.out.println("Figure: rightTriangle, area: " + getArea()
                 + " sq. units, firstLeg: " + firstLeg
                 + " units, secondLeg: " + secondLeg
-                + " units, color: " + color);
+                + " units, color: " + getColor());
     }
 }

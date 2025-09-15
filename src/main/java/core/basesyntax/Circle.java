@@ -17,6 +17,6 @@ public class Circle extends AbstractFigure {
     public void draw() {
         System.out.println("Figure: circle, area: " + getArea()
                 + " aq. units, radius: " + radius
-                + " units, color: " + color);
+                + " units, color: " + getColor());
     }
 }
