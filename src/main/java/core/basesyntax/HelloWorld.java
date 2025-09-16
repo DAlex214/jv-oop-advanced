@@ -5,10 +5,9 @@ package core.basesyntax;
  */
 
 public class HelloWorld {
-
     public static void main(String[] args) {
         FigureSupplier figureSupplier = new FigureSupplier();
-        Figure[] figures = new Figure[6];
+        AbstractFigure[] figures = new AbstractFigure[6]; // тут AbstractFigure
 
         for (int i = 0; i < figures.length / 2; i++) {
             figures[i] = figureSupplier.getRandomFigure();
@@ -18,8 +17,8 @@ public class HelloWorld {
             figures[i] = figureSupplier.getDefaultFigure();
         }
 
-        for (Figure figure : figures) {
-            figure.draw();
+        for (AbstractFigure figure : figures) {
+            figure.draw(); // draw() є в AbstractFigure через Drawable
         }
     }
 }
